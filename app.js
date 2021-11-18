@@ -71,7 +71,7 @@ passport.use(new GoogleStrategy({
 ));
 
 app.get("/", function (req, res) {
-   res.render("home");
+   res.render("/home");
 });
 
 app.get("/auth/google", passport.authenticate("google", { scope: ["profile"] }));

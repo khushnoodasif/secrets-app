@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost:27017/userDB", {
+mongoose.connect("mongodb+srv://admin-kush:" + process.env.PS +"@cluster0.co78d.mongodb.net/userDB", {
    useNewUrlParser: true
 });
 
@@ -75,6 +75,6 @@ app.post("/login", function (req, res) {
    });
 });
 
-app.listen(3000, function () {
+app.listen(proces.env.PORT || 3000, function () {
    console.log("Server started on port 3000");
 });

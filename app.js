@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-kush:" + process.env.PS +"@cluster0.co78d.mongodb.net/userDB", {
+mongoose.connect("mongodb+srv://admin-kush:" + process.env.PS + "@cluster0.co78d.mongodb.net/userDB", {
    useNewUrlParser: true
 });
 

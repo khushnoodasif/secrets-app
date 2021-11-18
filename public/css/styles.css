@@ -1,6 +1,10 @@
+.jumbotron {
+  background-color: #0a192f;
+}
+
 
 body {
-  background-color: #E8ECEF;
+  background-color: #0a192f;
 }
 
 .centered {
@@ -13,4 +17,31 @@ body {
   font-size: 2rem;
   color: #fff;
   background-color: #000;
+}
+
+.container, h1 {
+  color: #64ffda;
+  border: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #64ffda
+}
+
+.btn-dark {
+  background-color: #64ffda;
+  border-color: #64ffda;
+}
+
+.btn-dark:hover {
+  color: #fff;
+  background-color: #1a417b;
+  border-color: #1a417b;
+}
+
+.card {
+  background-color: #454649;
+  border-color: #454649;
 }

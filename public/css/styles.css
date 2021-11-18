@@ -30,9 +30,29 @@ footer {
   color: #64ffda
 }
 
+.lead {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.card {
+  background-color: #132d55;
+  border-color: #1a417b;
+}
+
+.btn {
+  color: #64ffda;
+}
+
+.btn:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .btn-dark {
-  background-color: #64ffda;
+  background-color: #044141;
   border-color: #64ffda;
+  color: #64ffda;
 }
 
 .btn-dark:hover {
@@ -41,7 +61,14 @@ footer {
   border-color: #1a417b;
 }
 
-.card {
-  background-color: #454649;
-  border-color: #454649;
+.btn-light {
+  background-color: #044141;
+  border-color: #64ffda;
+  color: #64ffda;
+}
+
+.btn-light:hover {
+  color: #fff;
+  background-color: #1a417b;
+  border-color: #1a417b;
 }
